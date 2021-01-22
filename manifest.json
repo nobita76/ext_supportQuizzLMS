@@ -1,0 +1,18 @@
+{
+  "name": "Get Answer Quizz LMS Fpoly",
+  "description": "GET Answer Quizz LMS.POLY.EDU.VN",
+  "version": "1.0.0",
+  "icons": { 
+		  "16": "hi.png",
+          "48": "hi.png",
+          "128": "hi.png" },
+  "permissions": [
+	"cookies","activeTab","http://*/*","https://*/*","storage"
+  ],
+  "browser_action": {
+      "default_title": "Get Ans Quizz - Bùi Ngọc Thành",
+      "default_icon": "hi.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
